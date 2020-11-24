@@ -65,7 +65,9 @@ Untuk keluar dari perulangan kita hanya perlu menginputkan 't' apabila diminta p
 
 print("\n Daftar Nilai Mahasiswa") print("==================================================================") print("|No. | Nama | NIM | Tugas | UTS | UAS | Akhir |") print("==================================================================") i = 0 for item in nilai: i += 1 print("| {no:2d} | {nama:12s} | {nim:9s} | {tugas:5d} | {uts:5d} | {uas:5d} | {akhir:6.2f} |" .format(no=i, nama=item[0], nim=item[1], tugas=item[2], uts=item[3], uas=item[4], akhir=item[5])) print("==================================================================") Setelah ini selanjutnya kita akan membuat flowcart Sebagai Berikut
 
+![flowchart](foto/flowchart.png)
 
+# TERIMA KASIH
 
 
 
